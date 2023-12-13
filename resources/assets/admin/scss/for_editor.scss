@@ -1,0 +1,72 @@
+body {
+    font-size: 15px;
+}
+blockquote {
+    background: #f6f6f6;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.subcategory-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    border: 1px dashed;
+    padding: 20px;
+    .item {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img {
+            max-width: 65px;
+        }
+    }
+}
+
+.insertPostsHere {
+    background: #07c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    padding: 0 30px;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &.block {
+        width: 100%;
+    }
+    &.redButton {
+        background-color: #ee263b;
+        -webkit-box-shadow: 0 2px 1px 0 rgba(159, 0, 17, .7);
+        box-shadow: 0 2px 1px 0 rgba(159, 0, 17, .7);
+        color: #fff;
+    }
+    &.yellowButton {
+        background-color: #ffd600;
+        -webkit-box-shadow: 0 2px 1px 0 rgba(160, 134, 0, .7);
+        box-shadow: 0 2px 1px 0 rgba(160, 134, 0, .7);
+    }
+}
+
+div.blockquote_second_format {
+    background: #eee;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid red;
+    margin: 15px 0;
+}
+
